@@ -1,0 +1,32 @@
+/* Logo Section */
+.logo-container {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Navbar Section */
+.navbar {
+  background-color: #B91C1C;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Navbar Links */
+.nav-link {
+  color: #f3f4f6; /* soft white/grey mix */
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+/* Hover Effect */
+.nav-link:hover {
+  color: #d1d5db; /* slightly darker grey */
+}
+
+/* Logo Image */
+.logo {
+  height: 80px;
+  cursor: pointer;
+}
