@@ -1,0 +1,58 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #FFFFFF;
+  color: #1F2937;
+  line-height: 1.7;
+  letter-spacing: -0.2px;
+}
+
+
+/* Section spacing system */
+.section-padding {
+  padding: 100px 0;
+}
+
+.section-light {
+  background-color: #F9FAFB;
+}
+
+.section-dark {
+  background-color: #F3F4F6;
+}
+
+/* Premium Buttons */
+.primary-btn {
+  background-color: #DC2626;
+  color: white;
+  border: none;
+  padding: 12px 26px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.primary-btn:hover {
+  background-color: #B91C1C;
+  transform: translateY(-2px);
+}
+
+/* Premium Card */
+.premium-card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+
+.premium-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+.premium-card img {
+  transition: transform 0.4s ease;
+}
+
+.premium-card:hover img {
+  transform: scale(1.05);
+}
