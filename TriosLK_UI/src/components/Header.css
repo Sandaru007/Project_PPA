@@ -17,10 +17,12 @@
 }
 
 /* Logo */
+/* Logo */
 .logo {
-  height: 65px;             /* Reduced logo height */
+  height: 85px;             /* Increased from 65px */
   width: auto;
   cursor: pointer;
+  display: block;
 }
 
 /* Nav Links */
